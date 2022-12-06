@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    border: 2px;
+    padding: 25px;
+}
+
+#container {
+    text-align: center;
+    margin-top: 35vh;
+}
+h1, h2, h3 {
+    color:blue;
+}
+
+.makeMeRed {
+        color:red;
+}
+.char1{
+    font-family: 'Courier new', Courier, monospace;
+}
+.char2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img {
+    Width : 50%;
+}
