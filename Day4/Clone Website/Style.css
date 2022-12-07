@@ -11,5 +11,9 @@ body {
     padding-bottom: 0px;
     padding-left: 0px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
