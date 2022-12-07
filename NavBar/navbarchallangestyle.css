@@ -9,7 +9,6 @@
     box-sizing: inherit;
 }
 
-
 body {
   background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
 }
@@ -19,7 +18,6 @@ body {
       margin: 0;
       padding: 0px;
 }
-
 
 a {
       color: white;
@@ -34,11 +32,9 @@ a {
       transition: all 0.5s;
 }
 
-
 a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
-
 
 .flex-nav ul {
   border: 1px solid black;
@@ -46,7 +42,6 @@ a:hover {
   margin: 0;
   padding: 0;
 }
-
 
 .flex-nav ul {
   display: flex;
@@ -56,7 +51,6 @@ a:hover {
 
 /* Smallest Screen (Mobile) devices (max width 600px)*/
 @media all and (max-width:600px) {
-  
   .wrapper {
     padding: 10%;
     padding-top: 0%;
@@ -71,10 +65,8 @@ a:hover {
   }
 }
 
-
 /* Smaller Screen (Tablet) devices (min width 600px)*/
-@media all and (min-width:600px) {
-  
+@media all and (min-width:600px) {  
   .flex-nav ul {
     flex-wrap: wrap;
     margin-left: 50px;
@@ -93,7 +85,6 @@ a:hover {
 
 /* Desktop devices (min width 992px)*/
 @media all and (min-width:992px) {
-
   .wrapper {
     padding-left: 10%;
     padding-right: 10%;
